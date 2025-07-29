@@ -1468,7 +1468,7 @@ button#leave-btn {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	minwidth: 28px;
+	min-width: 28px;
 	margin: 0 var(--unit-50) 0 0;
 }
 
@@ -1575,9 +1575,9 @@ button#leave-btn {
 	max-height: 835px;
 }
 
-.content .allo {
+/* .content .allo {
 	counter: list;
-}
+} */
 
 .allo .friend {
 	position: relative;
@@ -5389,7 +5389,7 @@ hr~.filters {
 .loading-scene>.logo>.name-map:before {
 	content: "OPERATION";
 	font-size: 1rem;
-	color: hsl(var(--clr-primary-200)));
+	color: hsl(var(--clr-primary-200));
 }
 
 .loading-scene>.logo>.mode {
@@ -7428,7 +7428,7 @@ img[src*="chest_3"]~button:hover:before {
 }
 
 .player-cont .nickname.bolder {
-    color: hsl(var(--clr-neutral-100));
+    color: hsl(var(--clr-primary-100));
 }
 
 .game-interface .desktop-game-interface {
