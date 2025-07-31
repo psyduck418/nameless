@@ -3148,8 +3148,8 @@ hr~.filters {
 
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child {
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child {
 	background: hsl(var(--clr-primary-200)) !important;
 	color: white !important;
 }
@@ -3518,18 +3518,7 @@ hr~.filters {
 }
 
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>.element:nth-child(3)>.right>.wrapper-input>.input:before {
-	content: "ERROR!?!?!?";
-	position: absolute;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	z-index: 10;
-	width: 124px;
-	height: 46px;
-	background: hsl(var(--clr-primary-300));
-	border-radius: var(--unit-25);
-	right: 0px;
-	font-size: 1rem;
+	display: none !important
 }
 
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content[data-v-280a526c]>.header {
