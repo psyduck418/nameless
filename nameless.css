@@ -7805,8 +7805,6 @@ img[src*="chest_3"]~button:hover:before {
 	margin: 0;
 }
 
-.vm--container [data-modal="auth-modal"]~div .card svg {}
-
 /* loading */
 #app .loading-scene {
 	justify-content: center;
@@ -7863,8 +7861,6 @@ img[src*="chest_3"]~button:hover:before {
 .esc-interface .vm--overlay~div .container-card {
 	pointer-events: auto;
 }
-
-.esc-interface .vm--overlay:not([data-modal="settings"])~div {}
 
 .esc-interface .vm--overlay:not([data-modal="settings"])~div .container-card {
 	position: absolute;
@@ -8130,14 +8126,14 @@ img[src*="chest_3"]~button:hover:before {
 	z-index: 1;
 }
 
-.esc-interface .right-container:after {
-	/* content: "";*/
-	/*position: absolute;*/
-	/*  background: hsl(0, 100%, 0%, .5) !important;*/
-	/*width: 100%;*/
-	/*height: 100vh;*/
-	/*z-index: 0;*/
-}
+/* .esc-interface .right-container:after {
+	content: "";
+	position: absolute;
+	 background: hsl(0, 100%, 0%, .5) !important;
+	width: 100%;
+	height: 100vh;
+	z-index: 0;
+} */
 
 .esc-interface .right-container .head {
 	grid-area: head;
