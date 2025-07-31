@@ -3123,13 +3123,7 @@ hr~.filters {
 
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input>.input>.items>div:before,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input>.input>div:before {
-	content: '';
-	width: 125px;
-	height: 46px;
-	background: white;
-	left: calc(-125px - var(--unit-50));
-	opacity: .0;
-	border-radius: var(--unit-25);
+	display: none !important;
 }
 
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input>.input>.items>div:hover,
@@ -3567,7 +3561,7 @@ hr~.filters {
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(5) {
 	position: absolute;
 	display: grid;
-	grid-template-columns: 1fr .01fr;
+	grid-template-columns:  unset;
 	grid-template-rows: 1fr;
 	gap: 0px 0px;
 	grid-template-areas:
