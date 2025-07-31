@@ -1535,9 +1535,13 @@ button#leave-btn {
 }
 
 .friends>.add-friends {
-	z-index: 1;
+	position: relative !important;
+	z-index: 1 !important;
 	background: transparent !important;
 	width: 100% !important;
+    height: 4rem !important;
+    margin: 0 !important;
+	padding: var(--unit-50)
 }
 
 .content>.tabs,
@@ -1549,7 +1553,7 @@ button#leave-btn {
 .friends>.content {
 	width: 100% !important;
 	margin: 0 !important;
-	height: calc(100% - 20px) !important;
+	height: calc(100% - 4rem)!important;
 }
 
 .friends>.content>.allo {
