@@ -3124,7 +3124,6 @@ hr~.filters {
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input>.input>.items>div:before,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input>.input>div:before {
 	content: '';
-	position: absolute;
 	width: 125px;
 	height: 46px;
 	background: white;
