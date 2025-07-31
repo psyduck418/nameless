@@ -3385,7 +3385,7 @@ hr~.filters {
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3) {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr .1fr;
-	grid-template-rows: 0fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 0fr 1fr 1fr 1fr 1fr;
 	grid-template-areas: "header header header header"
 		"element-1 element-1 element-1 canvas"
 		"element-2 element-2 element-2 canvas"
