@@ -3415,11 +3415,11 @@ hr~.filters {
 	grid-area: element-3;
 }
 
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>.element:nth-child(5) {
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>.element:nth-child(6) {
 	grid-area: element-4;
 }
 
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>canvas:nth-child(6) {
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>canvas:nth-child(5) {
 	--ratio: 284px;
 	grid-area: canvas;
 	border-radius: var(--unit-25);
