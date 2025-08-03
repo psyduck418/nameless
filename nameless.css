@@ -3136,10 +3136,10 @@ hr~.filters {
 	color: hsl(var(--clr-primary-200));
 }
 
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="yes"]>.input>.items>div:first-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="no"]>.input>.items>div:last-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:not(:nth-child(3)):not(:nth-child(4))>.element>.right>.wrapper-input[value="yes"]>.input>.items>div:first-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:not(:nth-child(3)):not(:nth-child(4))>.element>.right>.wrapper-input[value="no"]>.input>.items>div:last-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:not(:nth-child(3)):not(:nth-child(4))>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:not(:nth-child(3)):not(:nth-child(4))>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="show"]>.input>.items>div:first-child,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="static"]>.input>.items>div:first-child,
 .settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="dynamic"]>.input>.items>div:last-child,
@@ -3150,10 +3150,10 @@ hr~.filters {
 	color: white;
 }
 
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input[value="1"]>.input>.items>div:first-child,
-.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box>.element>.right>.wrapper-input[value="0"]>.input>.items>div:last-child {
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>.element>.right>.wrapper-input[value="0"]>.input>.items>div:first-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(3)>.element>.right>.wrapper-input[value="1"]>.input>.items>div:last-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(4)>.element>.right>.wrapper-input[value="0"]>.input>.items>div:first-child,
+.settings-holder>.settings>.container>.content>.tabs>.tab-content>.general-content>.box:nth-child(4)>.element>.right>.wrapper-input[value="1"]>.input>.items>div:last-child {
 	background: hsl(var(--clr-primary-200)) !important;
 	color: white !important;
 }
