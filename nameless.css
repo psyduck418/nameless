@@ -6858,7 +6858,7 @@ img[src*="chest_3"]~button:hover:before {
 	padding-top: 0;
 }
 
-.end-modal .card-cont .player {
+.end-modal .card-cont .player-cont {
 	margin: 0;
 	margin-top: var(--unit-50);
 	width: 100%;
