@@ -832,9 +832,26 @@ span>.user-btn:after,
 }
 
 /* invite */
-#invite-left1[data-v-175ff302],
-#invite-left2[data-v-175ff302],
-#invite-right[data-v-175ff302] {
+#invite-left1,
+#invite-left2{
+    display: none;
+}
+
+#invite-right {
+    left: var(--unit-150) !important;
+    bottom: var(--unit-150) !important;
+}
+
+#invite-right .invite-btn {
+    height: var(--unit-312) !important;
+    width: var(--unit-312) !important;
+	border-radius: var(--unit-25);
+    border: none !important;
+    line-height: 50px;
+    background: hsl(var(--clr-neutral-900)) !important;
+}
+
+#invite-right .invite-btn .invite-btn-tip {
     display: none !important;
 }
 
